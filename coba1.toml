@@ -1,0 +1,27 @@
+title = "Title"
+initial_value = 10000000
+initial_month = 2
+last_month = 4
+
+[monthly]
+  income_total = 5000000
+  expense_total = 3000000
+
+  [[monthly.income]]
+    name = "Gajian"
+    amount = 5000000
+    include_first_month = true
+
+  [[monthly.expense]]
+    name = "Makan"
+    amount = 1500000
+
+  [[monthly.expense]]
+    name = "Traveling"
+    amount = 1000000
+
+  [[monthly.expense]]
+    name = "Hadiah"
+    amount = 500000
+
+[additional_budget]

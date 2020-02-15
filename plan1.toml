@@ -1,6 +1,6 @@
 # This is a TOML document for Financial Forecast
 
-title = "Setelah Beli Sepeda"
+title = "Title"
 
 # Your current Balance
 initial_value = 10000000
@@ -13,22 +13,17 @@ last_month = 4
 
 # Income
 [[monthly.income]]
-name = "string3"
-value = 20000
-[[monthly.income]]
-name = "string3"
-value = 30000
-[[monthly.income]]
-name = "string3"
-value = 40000
+name = "Gajian"
+amount = 5000000
+include_first_month = true
 
 # Expense
 [[monthly.expense]]
-name = "string"
-value = 10000
+name = "Makan"
+amount = 1500000
 [[monthly.expense]]
-name = "string2"
-value = 5000
+name = "Traveling"
+amount = 1000000
 [[monthly.expense]]
-name = "string3"
-value = 1000
+name = "Hadiah"
+amount = 500000
